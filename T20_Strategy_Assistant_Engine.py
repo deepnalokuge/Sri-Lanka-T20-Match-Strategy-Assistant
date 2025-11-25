@@ -369,7 +369,7 @@ if st.button("🚀 Generate Match Strategy"):
     # ================================
     # FIELDING STRATEGY
     # ================================
-    st.header("🏏 Phase-wise Fielding Strategy")
+    st.header("🏏 Phase-wise Fielding ")
 
     for phase in ["powerplay", "middle", "death"]:
         strategy, field_positions = generate_field_setting(base_df, phase)
