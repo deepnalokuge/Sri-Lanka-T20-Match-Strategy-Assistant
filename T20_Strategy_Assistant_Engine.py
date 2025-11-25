@@ -84,7 +84,9 @@ st.sidebar.markdown(
 )
 
 opponent_score = st.sidebar.number_input(
-    "Opponent's 1st Innings Score**(leave 0 if not applicable)", min_value=0, max_value=300, step=1, value=0
+    """Opponent's 1st Innings Score
+(leave 0 if not applicable)""",
+    min_value=0, max_value=300, step=1, value=0
 )
 
 
